@@ -1,5 +1,5 @@
 <template>
-  <router-link class="app-link" :to="path">{{ label }}</router-link>
+  <a class="app-link" :to="path">{{ label }}</a>
 </template>
 
 <script>

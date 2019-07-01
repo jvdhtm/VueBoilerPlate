@@ -9,13 +9,13 @@
       />
     </div>
     <div class="nav-bar-cell right">
-      <a href="https://github.com/sakihet/vue-atomic-design-template">Github</a>
+      <a href="https://github.com/jvdhtm">Github</a>
     </div>
   </div>
 </template>
 
 <script>
-import AppLink from '../atoms/AppLink'
+
 import AppLogo from '../atoms/AppLogo'
 import HorizontalLinkList from '../molecules/HorizontalLinkList'
 
@@ -44,7 +44,6 @@ export default {
     }
   },
   components: {
-    AppLink,
     AppLogo,
     HorizontalLinkList
   }
